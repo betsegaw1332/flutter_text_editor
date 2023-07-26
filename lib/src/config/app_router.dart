@@ -10,7 +10,7 @@ abstract class AppRouter {
         path: '/',
         name: AppRoutes.rootRouteName,
         redirect: ((context, state) =>
-            state.namedLocation(AppRoutes.onboardingRouteName))),
+            state.namedLocation(AppRoutes.homeRoute))),
   
     GoRoute(
         path: '/home',

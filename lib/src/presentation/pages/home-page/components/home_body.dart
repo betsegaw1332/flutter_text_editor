@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_text_editor/src/presentation/pages/home-page/components/export.dart';
 
 class HomeBody extends StatelessWidget {
   const HomeBody({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const TextEditor();
   }
 }

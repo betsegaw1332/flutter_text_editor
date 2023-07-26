@@ -8,8 +8,8 @@ abstract class AppTheme {
       InputDecoration(hintText: hintText, prefixIcon: Icon(prefixIcon));
 
   static final TextTheme lightTextTheme = TextTheme(
-    bodyText1: const TextStyle(color: Colors.white),
-    bodyText2: TextStyle(color: AppColors.appPrimaryColor),
+    bodyLarge: const TextStyle(color: Colors.white),
+    bodyMedium: TextStyle(color: AppColors.appPrimaryColor),
   );
 
   static TextStyle textStyle(Color color, double fontSize) =>
